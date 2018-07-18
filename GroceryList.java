@@ -45,9 +45,5 @@ public class GroceryList
 
         out.println("Calculating your grocery bill.");
         out.print("Your total cost is " + ((A*price1) + (B*price2) + (C*price3)));
-
-
-
-
     }
 }
