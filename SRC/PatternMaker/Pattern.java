@@ -3,26 +3,29 @@ package PatternMaker;
 import java.util.ArrayList;
 
 public class Pattern {
+
     protected static ArrayList<Stitch> stitches;
-    public Pattern(){this.stitches=new ArrayList<> ();}
 
+    //constructor
+    public Pattern() {
+        this.stitches = new ArrayList<Stitch> ( );
+    }
 
-    /*public Pattern(String pattern){
-        this.pattern=new ArrayList<> ();
-    }*/
+    public void sewPattern(){
+        System.out.println (stitches);
+    }
 
-  public void sewPattern(){
-     //   System.out.println (pattern);
-  }
-
-
-
-
-
-    public static ArrayList<Stitch> addStitchToPattern(Stitch a){
+   public ArrayList<Stitch> addStitchToPattern(Stitch a){
         stitches.add (a);
         return stitches;
     }
 
-    public ArrayList getPatterns() {return stitches;}
+    public void printPattern(ArrayList<Stitch> patternToPrint){
+        for(int i=0; i< patternToPrint.size (); i++)
+        {
+            patternToPrint.get(i).sew();
+        }
+    }
+
+    /*public ArrayList getPatterns() {return stitches;}*/
 }

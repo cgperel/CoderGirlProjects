@@ -3,13 +3,10 @@ package PatternMaker;
 import java.util.ArrayList;
 
 public class Stitch {
-
+    protected String oneStitch= " ";
     //default constructor
     public Stitch(){
-
     }
-
-    private static String oneStitch= " ";
 
     //not default constructor
     public Stitch(String oneStitch){
@@ -17,11 +14,9 @@ public class Stitch {
     }
 
     //prints one stitch
-    public static void sew(){
+    public void sew(){
         System.out.print (oneStitch);
-
     }
-
 }
 
 
