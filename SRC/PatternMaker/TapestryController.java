@@ -3,39 +3,38 @@ package PatternMaker;
 import java.util.ArrayList;
 
 public class TapestryController {
-    private ArrayList<Pattern> stitches;
+   // private ArrayList<Stitch> stitches;
   //  private String oneStitch= " ";
 
     public TapestryController(){
-        stitches = new ArrayList<Pattern> (stitches);
+        /*stitches = new ArrayList<Stitch> (stitches);*/
     }
     /*public void addStitchesToPattern(String oneStitch){
         stitches.add (oneStitch);
     }*/
 
 
+
+
     public static void main(String[] args){
-        BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
+
+     //  BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
         //blockyBaublePattern.sewPattern ();
-        blockyBaublePattern.printThePattern();
+       // blockyBaublePattern.printThePattern();
 
-        BlockStitch blockStitch = new BlockStitch ();
-        blockStitch.printStitch ();
-
-
-
-
+        //BlockStitch blockStitch = new BlockStitch ();
+        //blockStitch.printStitch ();
 
 
         //BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
 
-         /* ShortLineStitch stitchOne = new ShortLineStitch ();
+        /* ShortLineStitch stitchOne = new ShortLineStitch ();
           stitchOne.sew ();
 
           Stitch stitchTwo=new SmallCrossStitch ();
           ((SmallCrossStitch) stitchTwo).sew ();
 
-          Stitch stitchThree = new LargeCrossStitch ();
+         Stitch stitchThree = new LargeCrossStitch ();
           ((LargeCrossStitch) stitchThree).sew();
 
           Stitch stitchFour = new BlockStitch ();

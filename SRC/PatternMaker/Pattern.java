@@ -20,10 +20,10 @@ public class Pattern {
         return stitches;
     }
 
-    public void printPattern(ArrayList<Stitch> patternToPrint){
+    public void printPattern(ArrayList<Pattern> patternToPrint){
         for(int i=0; i< patternToPrint.size (); i++)
         {
-            patternToPrint.get(i).sew();
+         //   patternToPrint.get(i).sew();
         }
     }
 
