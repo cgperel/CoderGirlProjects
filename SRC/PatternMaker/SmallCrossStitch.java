@@ -4,16 +4,13 @@ public class SmallCrossStitch extends Stitch {
 
     Stitch smallCrossStitch;
 
-    public SmallCrossStitch(){
-        this.smallCrossStitch = new Stitch ("x");
+    public SmallCrossStitch(String oneStitch){
+        super("x");
     }
 
-    public Stitch getSmallCrossStitch() {
+    /*public Stitch getSmallCrossStitch() {
         return smallCrossStitch;
-    }
-
-
-
+    }*/
     /*public void printStitch(){smallCrossStitch.sew ();
     }*/
 

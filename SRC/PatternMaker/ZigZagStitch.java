@@ -4,7 +4,7 @@ public class ZigZagStitch extends Stitch {
     Stitch zigZagStitch;
 
     public ZigZagStitch(){
-        this.zigZagStitch = new Stitch ("Z");
+        super("Z");
     }
 
     /*public void printStitch(){
