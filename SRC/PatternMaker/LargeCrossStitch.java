@@ -3,7 +3,7 @@ package PatternMaker;
 public class LargeCrossStitch extends Stitch {
     Stitch largeCrossStitch;
 
-    public LargeCrossStitch(){
+    public LargeCrossStitch(String oneStitch){
         this.largeCrossStitch = new Stitch ("X");
     }
 

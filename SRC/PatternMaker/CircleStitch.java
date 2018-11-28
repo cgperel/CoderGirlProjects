@@ -2,7 +2,7 @@ package PatternMaker;
 
 public class CircleStitch extends Stitch {
     Stitch circleStitch;
-    public CircleStitch(){
+    public CircleStitch(String oneStitch){
         this.circleStitch = new Stitch ("o");
     }
 

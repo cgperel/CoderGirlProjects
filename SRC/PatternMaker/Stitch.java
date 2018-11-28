@@ -23,6 +23,13 @@ public static void main(String[]args) {
         oneStitch.sew ();
         ShortLineStitch shortLine = new ShortLineStitch ("-");
         shortLine.sew ();
+        FillStitch fillStitch = new FillStitch ("=");
+        fillStitch.sew ();
+        LargeCrossStitch largeCrossStitch = new LargeCrossStitch ("X");
+        largeCrossStitch.sew ();
+        CircleStitch circleStitch = new CircleStitch ("o");
+        circleStitch.sew ();
+
 
 }
 }

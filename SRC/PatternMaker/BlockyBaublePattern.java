@@ -14,7 +14,7 @@ public class BlockyBaublePattern extends Pattern {
         Stitch firstStitch = new BlockStitch ();
         ShortLineStitch secondStitch = new ShortLineStitch ();
         ShortLineStitch thirdStitch = new ShortLineStitch ();
-        CircleStitch fourthStitch = new CircleStitch ();
+        //CircleStitch fourthStitch = new CircleStitch ();
 
        /* stitches.add (firstStitch (BlockStitch));
          stitches.add (new BlockStitch ());
@@ -24,7 +24,7 @@ public class BlockyBaublePattern extends Pattern {
         addStitchToPattern (firstStitch);
         addStitchToPattern (secondStitch);
         addStitchToPattern (thirdStitch);
-        addStitchToPattern (fourthStitch);
+        //addStitchToPattern (fourthStitch);
 
         return stitches;
     }
