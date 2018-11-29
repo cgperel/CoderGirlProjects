@@ -13,8 +13,8 @@ public class Stitch {
 
     protected String oneStitch= " ";
     //default constructor
-    public Stitch(){
-    }
+    //public Stitch(){
+    //}
     //not default constructor
     public Stitch(String oneStitch){
         this.oneStitch=oneStitch;

@@ -10,9 +10,7 @@ public class Pattern {
 
     //behaviors
 
-
-
-    protected static ArrayList<Stitch> stitches;
+    protected ArrayList<Stitch> stitches;
     protected double jamRate;
 
     //constructor
@@ -21,30 +19,43 @@ public class Pattern {
         // - how will it know to print which pattern?
         //use an array or arraylist- an array of stitches
         //can put any subclasses in the array
-        
+
         stitches = new ArrayList<Stitch> ( );
     }
 
     public void sewPattern(){
-        System.out.println (stitches);
+        if (Math.random ()<jamRate)
+        {
+            for(int i=0; i< stitches.size ()/2; i++)
+            {
+                stitches.get(i).sew();
+            }
+
+        } else{
+            for(int i=0; i< stitches.size (); i++)
+            {
+                stitches.get(i).sew();
+            }
+            //System.out.println (stitches);
+        }
     }
 
    public void addStitchToPattern(Stitch a){
         stitches.add (a);
     }
 
-    public void printPattern(ArrayList<Pattern> patternToPrint){
-        for(int i=0; i< patternToPrint.size (); i++)
-        {
-         //   patternToPrint.get(i).sew();
-        }
+    public void printPattern(ArrayList<Stitch> stitches){
+
     }
 
-    public static void main(String[] args){
+   /* public static void main(String[] args){
         BlockyBaublePattern blocky = new BlockyBaublePattern ();
        // blocky.addStitchToPattern ();
         //blocky.printPattern (stitches);
         System.out.println (blocky);
+
+        CrossStitchWigglePattern crossy = new CrossStitchWigglePattern ();
+        System.out.println (crossy);
     }
-    /*public ArrayList getPatterns() {return stitches;}*/
+    public ArrayList getPatterns() {return stitches;}*/
 }
