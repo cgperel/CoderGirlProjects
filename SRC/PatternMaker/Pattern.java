@@ -8,16 +8,15 @@ public class Pattern {
 
     //constructor
     public Pattern() {
-        this.stitches = new ArrayList<Stitch> ( );
+        stitches = new ArrayList<Stitch> ( );
     }
 
     public void sewPattern(){
         System.out.println (stitches);
     }
 
-   public ArrayList<Stitch> addStitchToPattern(Stitch a){
+   public void addStitchToPattern(Stitch a){
         stitches.add (a);
-        return stitches;
     }
 
     public void printPattern(ArrayList<Pattern> patternToPrint){
@@ -27,5 +26,11 @@ public class Pattern {
         }
     }
 
+    public static void main(String[] args){
+        BlockyBaublePattern blocky = new BlockyBaublePattern ();
+       // blocky.addStitchToPattern ();
+        //blocky.printPattern (stitches);
+        System.out.println (blocky);
+    }
     /*public ArrayList getPatterns() {return stitches;}*/
 }

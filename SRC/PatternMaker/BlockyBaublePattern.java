@@ -11,6 +11,7 @@ public class BlockyBaublePattern extends Pattern {
     }
 
     public ArrayList<Pattern> createPattern(){
+
         Stitch firstStitch = new BlockStitch ();
         ShortLineStitch secondStitch = new ShortLineStitch ();
         ShortLineStitch thirdStitch = new ShortLineStitch ();

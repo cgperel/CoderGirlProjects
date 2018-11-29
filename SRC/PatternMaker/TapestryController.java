@@ -18,9 +18,9 @@ public class TapestryController {
 
     public static void main(String[] args){
 
-     //  BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
-        //blockyBaublePattern.sewPattern ();
-       // blockyBaublePattern.printThePattern();
+       BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
+       blockyBaublePattern.sewPattern ();
+        blockyBaublePattern.printThePattern();
 
         //BlockStitch blockStitch = new BlockStitch ();
         //blockStitch.printStitch ();
