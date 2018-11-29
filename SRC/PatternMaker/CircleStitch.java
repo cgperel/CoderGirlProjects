@@ -2,7 +2,7 @@ package PatternMaker;
 
 public class CircleStitch extends Stitch {
     Stitch circleStitch;
-    public CircleStitch(String oneStitch){
+    public CircleStitch(){
         super ("o");
     }
 

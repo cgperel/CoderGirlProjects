@@ -9,7 +9,7 @@ public class BlockStitch extends Stitch {
     //Stitch blockStitch = new Stitch ("[]");
 
 
-  public void printStitch(){
+  /*public void printStitch(){
         blockStitch.sew ();
-    }
+    }*/
 }

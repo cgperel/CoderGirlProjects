@@ -18,8 +18,8 @@ public class TapestryController {
 
     public static void main(String[] args){
 
-       BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
-       blockyBaublePattern.sewPattern ();
+        BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
+        blockyBaublePattern.sewPattern ();
         blockyBaublePattern.printThePattern();
 
         //BlockStitch blockStitch = new BlockStitch ();
@@ -42,13 +42,10 @@ public class TapestryController {
 
           BrokenWigglePattern onePattern = new BrokenWigglePattern ();
           onePattern.printPattern ();
-*/
+
         // BlockyBaublePattern firstPattern = new BlockyBaublePattern ();
         // firstPattern.createPattern ();
-//         BlockyBaublePattern.createPattern();
-
-
-
+         BlockyBaublePattern.createPattern();*/
 
           }
 

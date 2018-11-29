@@ -4,7 +4,7 @@ public class SmallCrossStitch extends Stitch {
 
     Stitch smallCrossStitch;
 
-    public SmallCrossStitch(String oneStitch){
+    public SmallCrossStitch(){
         super("x");
     }
 

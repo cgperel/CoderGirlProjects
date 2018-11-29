@@ -1,12 +1,12 @@
 package PatternMaker;
 
 public class FillStitch extends Stitch {
-    public FillStitch(String oneStitch){
+    public FillStitch(){
         super("=");
     }
-    Stitch fillStitch = new Stitch ("=");
+    //Stitch fillStitch = new Stitch ("=");
 
-    public void printStitch(){
+   /* public void printStitch(){
         fillStitch.sew ();
-    }
+    }*/
 }

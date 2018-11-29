@@ -3,12 +3,16 @@ package PatternMaker;
 import java.util.ArrayList;
 
 public class ShortLineStitch extends Stitch{
-    public ShortLineStitch(String oneStitch){
+    public ShortLineStitch(){
+        //also has a
+        // protected String stitchType (inherited from Stitch)
         super("-");
-    }
 
-    public ShortLineStitch() {
+        //behavior
+        //public void sew() (inherited from Stitch)
 
+        //all base classes just need constructor- everything else handled by base class
+        //just needs constructor - instance variable
     }
 
     /*Stitch shortLineStitch;

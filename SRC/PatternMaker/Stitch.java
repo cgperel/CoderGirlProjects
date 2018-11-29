@@ -3,6 +3,14 @@ package PatternMaker;
 import java.util.ArrayList;
 
 public class Stitch {
+
+    //has-a
+    //String stitchType
+
+    //behavior
+    //public void sew()
+    //how do  I make sure each stitch has different type?
+
     protected String oneStitch= " ";
     //default constructor
     public Stitch(){
@@ -19,19 +27,15 @@ public class Stitch {
     }
 
 public static void main(String[]args) {
-        Stitch oneStitch = new Stitch ("hi");
-        oneStitch.sew ();
-        ShortLineStitch shortLine = new ShortLineStitch ("-");
+        ShortLineStitch shortLine = new ShortLineStitch ();
         shortLine.sew ();
-        FillStitch fillStitch = new FillStitch ("=");
+        FillStitch fillStitch = new FillStitch ();
         fillStitch.sew ();
-        LargeCrossStitch largeCrossStitch = new LargeCrossStitch ("X");
+        LargeCrossStitch largeCrossStitch = new LargeCrossStitch ();
         largeCrossStitch.sew ();
-        CircleStitch circleStitch = new CircleStitch ("o");
+        CircleStitch circleStitch = new CircleStitch ();
         circleStitch.sew ();
-
-
-}
+    }
 }
 
 

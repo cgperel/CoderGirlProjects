@@ -3,11 +3,25 @@ package PatternMaker;
 import java.util.ArrayList;
 
 public class BlockyBaublePattern extends Pattern {
+
+
+    //has-a
+    //ArrayList<Stitch> stitches (inherited from pattern)
+    //jam rate in the constructor
+
+    //behavior
+    //pattern() (inherited from Pattern)
+
+    //just constructor here
+
     ArrayList<Pattern> stitches;
 
     public BlockyBaublePattern(){
-        this.stitches = createPattern ();
 
+
+        //add the stitches in each subclass
+
+        this.stitches = createPattern ();
     }
 
     public ArrayList<Pattern> createPattern(){
@@ -26,17 +40,13 @@ public class BlockyBaublePattern extends Pattern {
         addStitchToPattern (secondStitch);
         addStitchToPattern (thirdStitch);
         //addStitchToPattern (fourthStitch);
-
         return stitches;
     }
 
     public void printThePattern(){
         printPattern (stitches);
     }
-
-
-
-    //create instance of blockstitch stitch
+        //create instance of blockstitch stitch
 
     //Pattern should have an array list of stitches
 }
