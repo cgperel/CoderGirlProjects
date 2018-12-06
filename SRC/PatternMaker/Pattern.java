@@ -36,26 +36,6 @@ public class Pattern {
             {
                 stitches.get(i).sew();
             }
-            //System.out.println (stitches);
         }
     }
-
-   public void addStitchToPattern(Stitch a){
-        stitches.add (a);
-    }
-
-    public void printPattern(ArrayList<Stitch> stitches){
-
-    }
-
-   /* public static void main(String[] args){
-        BlockyBaublePattern blocky = new BlockyBaublePattern ();
-       // blocky.addStitchToPattern ();
-        //blocky.printPattern (stitches);
-        System.out.println (blocky);
-
-        CrossStitchWigglePattern crossy = new CrossStitchWigglePattern ();
-        System.out.println (crossy);
-    }
-    public ArrayList getPatterns() {return stitches;}*/
 }

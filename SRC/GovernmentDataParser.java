@@ -6,7 +6,7 @@ public class GovernmentDataParser {
         BufferedReader in = null;
         PrintWriter output = null;
         try {
-            in = new BufferedReader (new FileReader ("https.txt"));
+            in = new BufferedReader (new FileReader ("C:\\Java\\CoderGirlProjectsOnGitHub\\SRC\\https\\txt.java"));
 
             String line = "";
             int executiveSites = 0;
@@ -36,9 +36,9 @@ public class GovernmentDataParser {
                     }
                 }
             }
-            double executivePercent = executiveHttps/executiveSites;
-            double judicialPercent = judicialHttps/judicialSites;
-            double legislativePercent = legislativeHttps/legislativeSites;
+            double executivePercent = (double)executiveHttps/executiveSites;
+            double judicialPercent = (double)judicialHttps/judicialSites;
+            double legislativePercent = (double)legislativeHttps/legislativeSites;
 
             output = new PrintWriter ("uses_https.txt");
             output.println ("branch\ttotal sites\tuses_https\tpercent_https");

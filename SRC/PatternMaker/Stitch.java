@@ -12,10 +12,7 @@ public class Stitch {
     //how do  I make sure each stitch has different type?
 
     protected String oneStitch= " ";
-    //default constructor
-    //public Stitch(){
-    //}
-    //not default constructor
+   //not default constructor
     public Stitch(String oneStitch){
         this.oneStitch=oneStitch;
     }
@@ -24,17 +21,6 @@ public class Stitch {
     //prints one stitch
     public void sew(){
         System.out.print (oneStitch);
-    }
-
-public static void main(String[]args) {
-        ShortLineStitch shortLine = new ShortLineStitch ();
-        shortLine.sew ();
-        FillStitch fillStitch = new FillStitch ();
-        fillStitch.sew ();
-        LargeCrossStitch largeCrossStitch = new LargeCrossStitch ();
-        largeCrossStitch.sew ();
-        CircleStitch circleStitch = new CircleStitch ();
-        circleStitch.sew ();
     }
 }
 

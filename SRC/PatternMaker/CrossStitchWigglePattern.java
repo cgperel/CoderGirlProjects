@@ -7,6 +7,5 @@ public class CrossStitchWigglePattern extends Pattern {
             stitches.add (new SmallCrossStitch ());
             stitches.add (new LargeCrossStitch ());
         }
-        //SmallCrossStitch
     }
 }
