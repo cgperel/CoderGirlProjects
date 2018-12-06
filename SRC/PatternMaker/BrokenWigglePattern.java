@@ -1,6 +1,13 @@
 package PatternMaker;
 
 public class BrokenWigglePattern extends Pattern {
+    public BrokenWigglePattern(){
+        jamRate=.40;
+        for(int i = 0;i<=5;i++){
+            stitches.add (new SmallCrossStitch ());
+            stitches.add (new LargeCrossStitch ());
+        }
+    }
 
 
 

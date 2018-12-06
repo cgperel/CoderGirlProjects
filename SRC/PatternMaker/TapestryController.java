@@ -23,6 +23,13 @@ public class TapestryController {
             }
         }
     System.out.println ("");
+    for(int k=0; k<8;k++){
+        System.out.println ("");
+        for (int l=0;l<6; l++)
+            a.sewPattern ();
+
+    }
+        System.out.println ("");
     }
 
 
@@ -42,6 +49,9 @@ public class TapestryController {
 
         BlockyBaublePattern blockyBaublePattern = new BlockyBaublePattern ();
         printAllPatterns(blockyBaublePattern);
+
+        BrokenWigglePattern brokenWigglePattern = new BrokenWigglePattern ();
+        printAllPatterns (brokenWigglePattern);
 
       //  blockyBaublePattern.printThePattern();
 
